@@ -1,0 +1,28 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (CodeAnalyzer.vcxproj, TestExectutive.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Executive.cpp
+  Utilities.cpp
+  TypeTable.cpp
+  Tokenizer.cpp
+  Sockets.cpp
+  SemiExp.cpp
+  ScopeStack.cpp
+  PublishCode.cpp
+  Parser.cpp
+  ConfigureParser.cpp
+  ActionsAndRules.cpp
+  Logger.cpp
+  HttpMessage.cpp
+  XmlWriter.cpp
+  XmlReader.cpp
+  Graph.cpp
+  GrammarHelpers.cpp
+  FileSystem.cpp
+  FileMgr.cpp
+  DependAnal.cpp
+  Generating Code...
+  Compiling...
+  Cpp11-BlockingQueue.cpp
+  AbstrSynTree.cpp
+  Generating Code...
+  Executive.vcxproj -> C:\Users\Sumanth Sai\Desktop\Project4\Project4_831608197\x64\Debug\RepositoryExec.exe
+  Executive.vcxproj -> C:\Users\Sumanth Sai\Desktop\Project4\Project4_831608197\x64\Debug\RepositoryExec.pdb (Full PDB)

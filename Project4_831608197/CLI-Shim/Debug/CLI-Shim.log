@@ -1,0 +1,6 @@
+﻿  CLIShim.cpp
+  .NETFramework,Version=v4.5.2.AssemblyAttributes.cpp
+  CLIShim.obj : /DEBUG:FASTLINK is not supported when managed code is present; restarting link with /DEBUG:FULL
+MsgClient.lib(Utilities.obj) : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:LBR' specification
+  CLI-Shim.vcxproj -> C:\Users\Sumanth Sai\Desktop\Project4\Project4_831608197\Debug\CLIShim.dll
+  CLI-Shim.vcxproj -> C:\Users\Sumanth Sai\Desktop\Project4\Project4_831608197\Debug\CLIShim.pdb (Partial PDB)
