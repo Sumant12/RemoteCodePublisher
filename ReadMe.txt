@@ -1,17 +1,8 @@
-Proj4 Readme file:
-1. to delete a file from the client, Please chose the category and the file again. Its working but 
-there is some issue with the way things are hanlded by wpf. Please run the client again and test the delete functionality.
-But This is not for every run. Sometimes it is working.
-
-2. Command Line arguments:
-../Repository *.h *.cpp  /f /r  ../StoreHTMFiles C:\Sumanth\GrammarHelpers http://localhost:8090/CodePublisher
-
-Arg1: Place where you want to store your files in the repository.
-Arg6: Place where you want to the html files to be rendered.
-Arg7: Physical path where you have configured the IIS
-Arg8: Virtual Mapping to the above physical path.
-
-3. I have implemented Lazy loading so all the dependent files will be downloaded.
-4. Please change the IIS physical and virtual path as in your machine to see how files are hosted on the IIS.
-5. When downloading the dependencies, if the filea are not present, the code anayzer triggers automatically and download the files.
-6. Press on Analyze button to analyze the dependencies and publish html files.
+A Client-Server Application where multiple clients can connect to the remote code repository and work in collaboration.
+1. Developed Publisher program that runs on the Repository Server which generates HTML web pages from the code uploaded by the Client. The HTML pages contain the information of all the Dependency files.
+2.The web pages generated will have the facility to expand or collapse class bodies, methods, and global functions using JavaScript and CSS properties.
+3.Clients can view various categories in the Repository and download one or multiple files under the selected categories.
+4.Clients can upload files to the Repository from their local machine to save the status of their work.
+5.Developed all the message-passing communication channels using Sockets and Http Style Asynchronous one-way messages.
+6.Implemented Lazy loading strategy to download files. when a file is downloaded by the Client, All the dependent files are downloaded automatically.
+7.The HTML pages are published to the IIS Server so that they can be accessed directly on the Server.
